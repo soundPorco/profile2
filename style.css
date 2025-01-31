@@ -1,0 +1,51 @@
+body {
+    font-weight: bolder;
+}
+
+h1 {
+    border-bottom: solid steelblue 3px;
+    background-color: white;
+    padding: 10px;
+}
+div {
+    max-width: 600px;
+    margin: 0 auto; /*縦と横 */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.5s ease;
+}
+h2 {
+    font-size: 40px;
+}
+button {
+    background-color: #eee;
+    transition: 0.2s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ccc;
+}
+
+button.Name {
+    border-left: rgb(236, 52, 52) 8px solid;
+    padding-left: 3px;
+    font-size: 30px;
+    margin-right: 10px;
+}
+button.Intro {
+    border-left: rgb(70, 180, 94) 8px solid;
+    padding-left: 3px;
+    font-size: 30px;
+}
+button.Hobby {
+    border-left: rgb(226, 214, 83) 8px solid;
+    padding-left: 3px;
+    font-size: 30px;
+}
+button.Dream {
+    border-left: rgb(63, 218, 232) 8px solid;
+    padding-left: 3px;
+    font-size: 30px;
+}
